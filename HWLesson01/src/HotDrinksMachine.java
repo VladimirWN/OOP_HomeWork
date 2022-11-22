@@ -17,7 +17,7 @@ public class HotDrinksMachine implements HotDrinksMachineInterface {
     public Product getProduct(String name) {
         for (int i = 0; i < this.hotDrinksList.size(); i++) {
             Product product = this.hotDrinksList.get(i);
-            if (product.name.equals(name)) {
+            if (product.getName().equals(name)) {
                 return this.hotDrinksList.remove(i);
             }
         }
@@ -28,7 +28,7 @@ public class HotDrinksMachine implements HotDrinksMachineInterface {
     public Product getProduct(String name, double volume, int temperature) {
         for (int i = 0; i < this.hotDrinksList.size(); i++) {
             HotDrink product = (HotDrink) this.hotDrinksList.get(i);
-            if (product.name.equals(name) && product.volume == volume && product.temperature == temperature) {
+            if (product.getName().equals(name) && product.getVolume() == volume && product.getTemperature() == temperature) {
                 return this.hotDrinksList.remove(i);
             }
         }
