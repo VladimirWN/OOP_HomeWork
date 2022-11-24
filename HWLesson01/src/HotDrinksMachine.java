@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class HotDrinksMachine implements HotDrinksMachineInterface {
+public class HotDrinksMachine implements VendingMachineInterface {
     List<Product> hotDrinksList;
 
     public HotDrinksMachine() {
@@ -24,7 +24,6 @@ public class HotDrinksMachine implements HotDrinksMachineInterface {
         return null;
     }
 
-    @Override
     public Product getProduct(String name, double volume, int temperature) {
         for (int i = 0; i < this.hotDrinksList.size(); i++) {
             HotDrink product = (HotDrink) this.hotDrinksList.get(i);
