@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HWLesson01/HWLesson01.iml" filepath="$PROJECT_DIR$/HWLesson01/HWLesson01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HWLesson02/HWLesson02.iml" filepath="$PROJECT_DIR$/HWLesson02/HWLesson02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HWLesson03/HWLesson03.iml" filepath="$PROJECT_DIR$/HWLesson03/HWLesson03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HWLesson04/HWLesson04.iml" filepath="$PROJECT_DIR$/HWLesson04/HWLesson04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HWLesson05/HWLesson05.iml" filepath="$PROJECT_DIR$/HWLesson05/HWLesson05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeWork.iml" filepath="$PROJECT_DIR$/HomeWork.iml" />
+    </modules>
+  </component>
+</project>
